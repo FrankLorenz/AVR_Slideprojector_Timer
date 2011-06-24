@@ -1,0 +1,13 @@
+This project is a firmware for an Atmel ATMega8 (AVR) microcontroller.
+
+The ATMega8 based hardware connects to a slide projector via the 6 pin connector for the standard remote control.
+It periodically sends "slide forward" commands to the projector. The delay between successive sends is adjustable via a potentiometer.
+
+For further info on the hardware, please contact the author (frank_wtal@web.de)
+
+The project uses the AVR port of the GCC compiler. avr-gcc normally ships with every state of the art linux distro. For Windows, you can install WinAVR.
+I use the avr-eclipse plugin (http://http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin) which integrates nicely into Eclipse IDE.
+
+
+Frank Lorenz
+
